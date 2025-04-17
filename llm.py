@@ -1,7 +1,7 @@
 import requests
 import os
 
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
+MISTRAL_API_KEY = os.getenv("rAzCkpPQHdSZLihDtrYEwGoILZ0QXtZG")
 
 def generate_response(query, context_docs):
     context = "\n\n".join([f"{doc['name']}: {doc['description']}" for doc in context_docs])
